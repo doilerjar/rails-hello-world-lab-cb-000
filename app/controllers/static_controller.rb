@@ -1,2 +1,5 @@
 class StaticController < ApplicationController
-  def abo
+  def hello_world
+    render "static/hello_world"
+  end 
+end
